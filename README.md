@@ -1,3 +1,4 @@
+#INDUPRO
 # AI Trading Dashboard  
 This project replicates TradingView's UI with AI chatbot support and real-time trading charts.
 
