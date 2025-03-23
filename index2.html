@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Trading Dashboard</title>
+    <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script defer src="chart.js"></script>
+    <script defer src="ai-chat.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>AI Trading Dashboard</h1>
+        <button id="theme-toggle">🌙 Dark Mode</button>
+    </header>
+
+    <div id="chart-container"></div>
+
+    <!-- Floating Chatbot Icon -->
+    <div id="chatbot-icon" onclick="toggleChat()">💬</div>
+
+    <!-- Chatbot Window -->
+    <div id="chat-container">
+        <div id="chat-box"></div>
+        <input type="text" id="user-input" placeholder="Ask something...">
+        <button id="send-btn">Send</button>
+    </div>
+
+</body>
+</html>
